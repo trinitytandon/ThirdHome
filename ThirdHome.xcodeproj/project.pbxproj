@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD440FE92C1B7D780020ADAE /* Stars.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD440FE82C1B7D780020ADAE /* Stars.swift */; };
+		BD663F8B2C1A197E00F3ACF2 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD663F8A2C1A197E00F3ACF2 /* Map.swift */; };
 		BDB19CF32C189B08007EF607 /* ThirdHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB19CF22C189B08007EF607 /* ThirdHomeApp.swift */; };
 		BDB19CF52C189B08007EF607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB19CF42C189B08007EF607 /* ContentView.swift */; };
 		BDB19CF72C189B09007EF607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB19CF62C189B09007EF607 /* Assets.xcassets */; };
 		BDB19CFA2C189B09007EF607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB19CF92C189B09007EF607 /* Preview Assets.xcassets */; };
+		BDE87D522C18D327003030B7 /* Relax.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE87D512C18D327003030B7 /* Relax.swift */; };
+		BDE87D542C18D38B003030B7 /* Active.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE87D532C18D38B003030B7 /* Active.swift */; };
+		BDE87D562C18D3BC003030B7 /* Fun.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE87D552C18D3BC003030B7 /* Fun.swift */; };
+		BDE87D582C18DCFA003030B7 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE87D572C18DCFA003030B7 /* Favorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD440FE82C1B7D780020ADAE /* Stars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stars.swift; sourceTree = "<group>"; };
+		BD663F8A2C1A197E00F3ACF2 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		BDB19CEF2C189B08007EF607 /* ThirdHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB19CF22C189B08007EF607 /* ThirdHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdHomeApp.swift; sourceTree = "<group>"; };
 		BDB19CF42C189B08007EF607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDB19CF62C189B09007EF607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB19CF92C189B09007EF607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE87D512C18D327003030B7 /* Relax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relax.swift; sourceTree = "<group>"; };
+		BDE87D532C18D38B003030B7 /* Active.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Active.swift; sourceTree = "<group>"; };
+		BDE87D552C18D3BC003030B7 /* Fun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun.swift; sourceTree = "<group>"; };
+		BDE87D572C18DCFA003030B7 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				BDB19CF22C189B08007EF607 /* ThirdHomeApp.swift */,
 				BDB19CF42C189B08007EF607 /* ContentView.swift */,
+				BDE87D512C18D327003030B7 /* Relax.swift */,
+				BDE87D532C18D38B003030B7 /* Active.swift */,
+				BDE87D552C18D3BC003030B7 /* Fun.swift */,
+				BD663F8A2C1A197E00F3ACF2 /* Map.swift */,
+				BDE87D572C18DCFA003030B7 /* Favorites.swift */,
+				BD440FE82C1B7D780020ADAE /* Stars.swift */,
 				BDB19CF62C189B09007EF607 /* Assets.xcassets */,
 				BDB19CF82C189B09007EF607 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDB19CF52C189B08007EF607 /* ContentView.swift in Sources */,
+				BDE87D562C18D3BC003030B7 /* Fun.swift in Sources */,
+				BDE87D522C18D327003030B7 /* Relax.swift in Sources */,
+				BD440FE92C1B7D780020ADAE /* Stars.swift in Sources */,
+				BD663F8B2C1A197E00F3ACF2 /* Map.swift in Sources */,
+				BDE87D582C18DCFA003030B7 /* Favorites.swift in Sources */,
 				BDB19CF32C189B08007EF607 /* ThirdHomeApp.swift in Sources */,
+				BDE87D542C18D38B003030B7 /* Active.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThirdHome/Preview Content\"";
+				DEVELOPMENT_TEAM = JD7NMSRW8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThirdHome/Preview Content\"";
+				DEVELOPMENT_TEAM = JD7NMSRW8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -7,12 +7,36 @@
 
 import SwiftUI
 
-struct Stars: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct Stars: View
+{
+    @Binding var rating : Int?
+    
+    private func starType(index :Int) -> String
+    {
+        if let rating = self.rating
+        {
+            return index <= rating ? "star.fill":"star"
+        } else
+        {
+            return "star"
+        }
     }
-}
-
-#Preview {
-    Stars()
+    
+    
+    var body: some View
+    {
+        HStack
+        {
+            ForEach (1...5, id: \.self)
+            {
+                index in Image(systemName: self.starType (index:index))
+                    .foregroundColor(Color.white)
+                    .onTapGesture
+                {
+                    self.rating = index
+                }
+            }
+        }
+        
+    }
 }
